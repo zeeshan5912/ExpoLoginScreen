@@ -4,7 +4,7 @@ import { Text } from "react-native-paper";
 
 import Background from "../components/Background";
 import Logo from "../components/Logo";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import Button from "../components/Button";
 import TextInput from "../components/TextInput";
 import BackButton from "../components/BackButton";
@@ -38,7 +38,7 @@ export default function RegisterScreen({ navigation }) {
     <Background>
       <BackButton goBack={navigation.goBack} />
       <Logo />
-      <Header>Welcome.</Header>
+      
       <TextInput
         label="Name"
         returnKeyType="next"
@@ -73,14 +73,14 @@ export default function RegisterScreen({ navigation }) {
         onPress={onSignUpPressed}
         style={{ marginTop: 24 }}
       >
-        Next
+       Sign me up
       </Button>
       <View style={styles.row}>
         <Text>I already have an account !</Text>
       </View>
       <View style={styles.row}>
         <TouchableOpacity onPress={() => navigation.replace("LoginScreen")}>
-          <Text style={styles.link}>Sign me in</Text>
+          <Text style={styles.link}>Sign in</Text>
         </TouchableOpacity>
       </View>
     </Background>

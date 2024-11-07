@@ -10,7 +10,7 @@ export default function StartScreen({ navigation }) {
   return (
     <Background>
       <Logo />
-      <Header>Welcome to ExpoLoginScreen</Header>
+      <Header>Welcome</Header>
      
       <Button
         mode="contained"
