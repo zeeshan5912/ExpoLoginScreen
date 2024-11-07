@@ -2,6 +2,8 @@
 
 A starter app template for React Native Expo, featuring a ready-to-use login screen.
 
+![AllScreens](assets/screenshot/snap.png)
+
 ## About ✔️
 
 What can you do with this template ?
